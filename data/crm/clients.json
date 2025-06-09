@@ -1,0 +1,41 @@
+[
+  {
+    "client_id": 101,
+    "telegram_user_id": 123456789,
+    "name": "Аркадий Петров",
+    "previous_purchase": "Bentley Continental GT (2022)",
+    "budget": "500000 USD",
+    "deal_status": "VIP клиент",
+    "preferences": "Скорость, эксклюзивность, новые технологии",
+    "notes": "Интересуется новыми моделями, готов к апгрейду каждые 2-3 года",
+    "purchase_history": [
+      {"car": "Bentley Continental GT", "year": 2022, "price": 280000},
+      {"car": "Porsche 911 Turbo", "year": 2020, "price": 180000}
+    ]
+  },
+  {
+    "client_id": 102,
+    "telegram_user_id": 987654321,
+    "name": "Елена Волкова",
+    "previous_purchase": null,
+    "budget": "250000-350000 USD",
+    "deal_status": "Горячий лид",
+    "preferences": "Безопасность, комфорт, престиж",
+    "notes": "Ищет первый премиум-автомобиль, важна репутация бренда",
+    "purchase_history": []
+  },
+  {
+    "client_id": 103,
+    "telegram_user_id": 555666777,
+    "name": "Дмитрий Козлов",
+    "previous_purchase": "Rolls-Royce Ghost (2021)",
+    "budget": "600000+ USD",
+    "deal_status": "Постоянный клиент",
+    "preferences": "Максимальная роскошь, эксклюзивность",
+    "notes": "Коллекционер, интересуется лимитированными сериями",
+    "purchase_history": [
+      {"car": "Rolls-Royce Ghost", "year": 2021, "price": 450000},
+      {"car": "Bentley Mulsanne", "year": 2019, "price": 400000}
+    ]
+  }
+]

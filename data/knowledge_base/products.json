@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "name": "Bentley Continental GT",
+      "price_usd": 250000,
+      "description": "Иконический Grand Tourer, сочетающий в себе роскошь, мощность и практичность. Двигатель W12, 626 л.с."
+    },
+    {
+      "name": "Bentley Bentayga",
+      "price_usd": 280000,
+      "description": "Роскошный внедорожник, предлагающий непревзойденный комфорт как на дороге, так и за ее пределами. Идеален для семьи."
+    },
+    {
+      "name": "Bentley Flying Spur",
+      "price_usd": 300000,
+      "description": "Роскошный седан для тех, кто ценит комфорт задних пассажиров и динамику спортивного автомобиля."
+    },
+    {
+      "name": "Rolls-Royce Phantom",
+      "price_usd": 450000,
+      "description": "Вершина автомобильной роскоши. Бесшумный, невероятно комфортный, статус и престиж в каждой детали."
+    },
+    {
+      "name": "Rolls-Royce Cullinan",
+      "price_usd": 350000,
+      "description": "Первый внедорожник от Rolls-Royce. Бескомпромиссная роскошь в любом путешествии."
+    }
+  ],
+  "upsell_options": [
+    {
+      "from": "Bentley Continental GT",
+      "to": "Rolls-Royce Phantom",
+      "reason": "Для клиентов, ищущих абсолютный максимум роскоши и статуса."
+    },
+    {
+      "from": "любой седан",
+      "to": "Bentley Bentayga или Rolls-Royce Cullinan",
+      "reason": "Если у клиента появилась семья или потребность в универсальном автомобиле."
+    }
+  ]
+}
